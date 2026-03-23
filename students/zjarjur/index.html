@@ -2,11 +2,28 @@
 <html lang="En">
 
 <head>
-
+    <link id="whichSheet" rel="stylesheet" href="./styles/light.css">
     <title>
         Mr. Jarjur's Page
     </title>
 
+    <script>
+        let mode = 0;
+        const linkElement = document.getElementById('whichSheet');
+        const light = "./styles/light.css";
+        const dark = "./styles/dark.css";
+
+        function changeMode() {
+            if (mode == 0) {
+                linkElement.setAttribute('href', dark);
+                mode = 1;
+            } else {
+                linkElement.setAttribute('href', light);
+                mode = 0;
+            }
+
+        }
+    </script>
 </head>
 
 <body>
@@ -14,7 +31,8 @@
         The Page of Ultimate Z-ness
     </h1>
 
- 
+    <button onclick="changeMode();">Change Mode</button>
+
     <footer>
         <p>
             This space for rent

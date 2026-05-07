@@ -1,0 +1,73 @@
+*{
+  box-sizing: border-box;
+}
+
+h1 {
+  font-family: "Sekuya", system-ui;
+  box-shadow: 10px 5px 5px 0 rgba(255, 251, 146, 0.838);
+  color: rgb(255, 236, 66);
+}
+
+button {
+  border-radius: 5px;
+}
+
+body {
+  padding: 20px;
+  background-color: black;
+  color: aliceblue;
+}
+
+a {
+  color: aliceblue;
+}
+
+.light-mode {
+  background-color: rgba(255, 254, 237, 0.911);
+  color: black;
+}
+
+.light-mode h1 {
+  box-shadow: 10px 5px 5px 0 rgb(255, 254, 171);
+}
+
+.center {
+  width: 940px;
+  padding: 20px;
+  border: 1px dotted white;
+  margin: 20px;
+}
+
+.poem {
+  text-align: left;
+}
+
+footer {
+  background-image: linear-gradient(to bottom, rgb(255, 244, 210), rgb(255, 143, 143));
+  
+}
+
+.light-mode footer {
+  background-image: linear-gradient(to bottom, rgb(250, 237, 171), rgb(253, 255, 187));
+}
+.ch{
+  background-image: linear-gradient(to bottom, rgb(255, 135, 135), rgb(250, 171, 171), rgb(255, 214, 183));
+  color: rgb(255, 255, 255);
+  padding: 10px;
+  font-family: "Gamja Flower", sans-serif;
+}
+.dark-mode {
+  background-color: rgba(40, 44, 101, 0.733);
+}
+.dark-mode h1 {
+  color: rgb(166, 166, 202);
+}
+
+.dark-mode p{
+  color: rgb(202, 215, 255);
+}
+.dark-mode footer{
+  background-image: linear-gradient(to bottom, rgb(115, 142, 172), rgb(70, 100, 153));
+}
+
+

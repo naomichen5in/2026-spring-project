@@ -1,0 +1,76 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  padding: 20px;
+    background-color: #252525;
+  color: rgb(255, 255, 255);
+  /* TODO Add dark mode styles here. */
+}
+
+.light-mode {
+      background-color: rgb(255, 255, 183);
+  color: rgb(255, 88, 191);
+  /* TODO Add light mode styles here. */
+}
+
+footer {
+    background-color:#ffb5e0;
+  text-align: center;
+}
+
+.center {
+  width: 940px;
+  padding: 20px;
+  border: 1px dotted rgb(108, 218, 255);
+  margin-left: auto;
+  margin-right: auto;
+  /* TODO Add margins to center. */
+}
+.poem {
+}
+
+.dark-mode{
+footer {
+    background-color:#ffaddd;
+background: radial-gradient(circle, rgba(255, 173, 221, 1) 10%, rgba(148, 242, 231, 1) 44%);
+  text-align: center;
+}
+}
+.expample{
+    border: 15px solid rgb(255, 255, 255);
+    padding: 20px;
+    width: 200px;
+}
+
+
+.light-mode footer {
+  /* TODO Add footer light mode styles here. */
+}
+
+#counter{
+border-color: rgb(162, 252, 255);
+border-style: solid;
+border-width: 3px;
+border-radius: 5%;
+}
+
+#calculator{
+  background-color: rgb(101, 101, 101);
+  border-color:rgb(255, 181, 245);
+  border-width: 5px;
+  border-style: solid;
+  border-radius:5%;
+  display:inline-block;
+}
+
+#calculator-buttons{
+  background-color: rgb(101, 101, 101);
+  border-color: rgb(255, 181, 245);
+  border-width: 2px;
+  border-style: solid;
+  max-width: 100px;
+  text-align: center;
+}
+
+

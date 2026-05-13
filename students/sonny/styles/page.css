@@ -169,3 +169,25 @@ footer {
         space-between;
     align-iteams:center;
   }
+
+.underline{
+    display: flex;
+    gap: 10px;
+    justify-content: right;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    margin-bottom: 0;
+    padding: 0px;
+  }
+
+  .tab {
+    display: inline-block;
+    border: 1px solid rgb(255, 255, 255);
+    border-bottom:none ;
+    padding: 10px;
+    border-top-left-radius:20px ;
+    border-top-right-radius:20px ;
+  }
+
+  .light-mode .tab{
+    border-color: black;
+  }

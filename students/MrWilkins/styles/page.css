@@ -163,8 +163,10 @@ footer {
   padding: 10px;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
+  background-color: black;
 }
 .light-mode .tab {
   border-color: black;
+  background-color: white;
 }
 

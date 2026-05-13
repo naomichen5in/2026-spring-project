@@ -23,8 +23,6 @@ body {
   margin-right: auto;
   width: 940px;
   padding: 20px;
-  border: 1px dotted rgb(227, 77, 77);
-  box-shadow: 10px 5px 5px 0 rgb(111, 33, 33);
 
   /* TODO Add margins to center. */
 }
@@ -169,4 +167,29 @@ button::after {
   justify-content:
     space-between;
   align-items: center;
+}
+
+.underline{
+  display: flex;
+  gap: 10px;
+  justify-content: right;
+  border-bottom: 1px solid rgb(255, 255, 255);
+  margin-bottom: 0;
+  padding: 0px;
+
+}
+.tab{
+  display: inline-block;
+  border: 1px solid white;
+  border-bottom: none;
+  padding: 10px;
+  border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.light-mode .tab {
+  border-color: black;
+}
+
+.light-mode .underline{
+  border-color: black;
 }

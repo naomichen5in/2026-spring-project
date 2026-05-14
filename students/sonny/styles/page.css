@@ -58,7 +58,8 @@ header {
 }
 
 main {
-  min-height: calc(100vh - 230px);
+   min-height: 100vh;
+   background-color: rgb(255 255 255 / 0.1);
 }
 
 h1,
@@ -167,7 +168,7 @@ footer {
     gap:15px;
     justify-content:
         space-between;
-    align-iteams:center;
+    align-items:center;
   }
 
 .underline{
@@ -190,4 +191,11 @@ footer {
 
   .light-mode .tab{
     border-color: black;
+  }
+
+  a {
+    color: white;
+  }
+  .light-mode a{
+    color: black;
   }

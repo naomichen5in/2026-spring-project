@@ -28,7 +28,6 @@ h1 {
   font-family: "BJ Cree", serif;
   font-family: "Bitcount Grid Double", system-ui;
   font-family: "Saira Stencil", sans-serif;
-  box-shadow: 10px 5px 5px 0 rgb(0, 0, 0);
 }
 
 button {
@@ -114,6 +113,7 @@ footer {
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   border-bottom: none;
+  font-size: larger;
 }
 
 .light-mode .tab {

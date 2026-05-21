@@ -9,6 +9,7 @@
     height: 420px;
     border: 10px solid rgb(195, 192, 192);
     position: relative;
+    border-radius: 5px;
 }
 
 .art {

@@ -4,7 +4,7 @@
 
 body {
   padding: 20px;
-  background-image: linear-gradient(to top, rgb(17, 8, 79), rgb(41, 3, 61));
+  background-image: linear-gradient(to top, rgb(48, 48, 48), rgb(52, 52, 52));
   color: rgb(185, 207, 207);
   /* TODO Add dark mode styles here. */
   font-family: "Bitcount Grid Double", system-ui;
@@ -30,6 +30,7 @@ button {
   background-color: rgb(76, 76, 76);
   color: aliceblue;
   border-radius: 5px;
+  border:2px solid black;
   box-shadow: 10px 5px 5px 0 rgb(212, 212, 212);
 
 }
@@ -60,7 +61,7 @@ button {
 footer {
   /* TODO Add styles */
   color: rgb(255, 255, 255);
-  background-image: linear-gradient(to top, rgb(59, 42, 167), rgb(22, 133, 133));
+  background-image: linear-gradient(to top, rgb(100, 100, 100), rgb(57, 57, 57));
   max-width: 940px;
   margin-left: auto;
   margin-right: auto;
@@ -126,4 +127,11 @@ a {
 
 main {
   min-height: 300px;
+  display:flow-root;
+}
+#clean {
+ 
+  border:5px solid black; 
+  box-shadow: 0px 0px 0px 0 rgb(212, 212, 212);
+
 }

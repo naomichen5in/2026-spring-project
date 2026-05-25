@@ -3,15 +3,10 @@
 
 <head>
     <title>My Dog AoAo</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Sekuya&display=swap" rel="stylesheet">
+   
     <link rel="stylesheet" href="styles/page.css">
     <link rel="stylesheet" href="styles/dog.css">
     <link rel="stylesheet" href="styles/button.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Gamja+Flower&display=swap" rel="stylesheet">
     <link href="./styles/page.css">
     <link href="./styles/dog.css">
     <link href="./styles/button.css">
@@ -34,8 +29,13 @@
                 <a href="./philosophy">Philosophy🧠</a>
                 <a href="./research.html">Research📃</a>
                 <a href="./coding.html">Coding🖥️</a>
-                <button id="color-button">
-                    <span class="button_top"> LIGHT </span>
+                
+                <button id="color-button" class="cta">
+                    <span> Change Mode </span>
+                    <svg width="15px" height="10px" viewBox="0 0 13 10">
+                        <path d="M1,5 L11,5"></path>
+                        <polyline points="8 1 12 5 8 9"></polyline>
+                    </svg>
                 </button>
             </menu>
         </div>
@@ -51,8 +51,14 @@
         </h1>
 
         <div class="dog-picture">
-            <img src="./Images/dog1.png" width="290">
+            <div class="art-frame">
+            <img class="art" src="./Images/dog1.png" width="290">
+            <canvas id="graffiti" width="400" height="400"></canvas>
         </div>
+        <button id="clean">
+            Clean
+        </button>
+    </div>
 
         <p>
             1. Name: <b>AoAo</b><br>
@@ -94,9 +100,8 @@
             </p>
         </div>
     </footer>
-    <script src="./scripts/color-mode.js">
-
-    </script>
+    <script src="./scripts/color-mode.js"></script>
+    <script src="./scripts/g.js"></script>
 </body>
 
 </html>

@@ -58,8 +58,9 @@ function graffiti(event) {
     surface.lineTo(x, y);
     surface.closePath();
     surface.stroke();
-
+    }
     oldX = x;
     oldY = y;
-}}
+
+}
 graffitiCanvas.addEventListener('mousemove', graffiti);

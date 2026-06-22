@@ -8,7 +8,14 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Jersey+10&display=swap" rel="stylesheet">
-
+    <script type="importmap">
+      {
+        "imports": {
+          "three": "https://cdn.jsdelivr.net/npm/three@0.184.0/build/three.module.js",
+          "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.184.0/examples/jsm/"
+        }
+      }
+    </script>
 </head>
 
 <body class="dark-mode">
@@ -37,8 +44,9 @@
         </ul>
     </header>
     <main class="center">
-        <h1>3D Dog</h1>
-       
+        <h1>3D Dog ⋆˚࿔ </h1>
+        <canvas id="dog-3d"></canvas>
+
     </main>
     <footer>
         <div class="center">
@@ -46,7 +54,8 @@
         </div>
     </footer>
     <script src="./scripts/color-mode.js"></script>
-   
+    <script src="scripts/dog.js" type="module"></script>
+
 </body>
 
 </html>

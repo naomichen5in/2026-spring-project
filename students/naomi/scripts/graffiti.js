@@ -42,25 +42,25 @@ colorInput.addEventListener("change", changeColor);
 /*
  *Shapes
  */
-function shapes() {
-    surface.rect(150, 200, 100, 100);
-    surface.stroke();
+//function shapes() {
+  //  surface.rect(150, 200, 100, 100);
+    //surface.stroke();
 
-    surface.beginPath();
-    surface.moveTo(200, 50);
-    surface.lineTo(150, 200);
+    //surface.beginPath();
+    //surface.moveTo(200, 50);
+    //surface.lineTo(150, 200);
     /*add 7*/
-    surface.moveTo(250, 50);
-    surface.lineTo(350, 50);
-    surface.moveTo(350, 50);
-    surface.lineTo(270, 300);
+    //surface.moveTo(250, 50);
+    //surface.lineTo(350, 50);
+    //surface.moveTo(350, 50);
+    //surface.lineTo(270, 300);
 
 
-    surface.closePath();
-    surface.stroke();
-}
+    //surface.closePath();
+    //surface.stroke();
+//}
 
-shapes();
+//shapes();
 
 /*
  *Clean up
